@@ -36,6 +36,7 @@ p{
   color:#fff;
   text-decoration: none;
   font-weight: 500;
+  transition: all 0.3s ease;
 }
 .main {
   float:left;
@@ -43,11 +44,6 @@ p{
   padding:0 20px;
 }
 
-.rmenu {
-  float:left;
-  width:20%;
-  text-align:center;  
-}
 
 h1 {
     font-size: 3.0em;
@@ -55,12 +51,12 @@ h1 {
     text-transform: uppercase;
     margin: 0;
     display: inline;
-      color:#fff;
+    color:#fff;    
 }
 
 h4 {
     font-size: 1.20em;
-    font-weight: 250;
+    font-weight: 300;
     line-height: 1.5;
 }
 
@@ -87,13 +83,20 @@ a {
   text-align:center;
 }
 
+.rmenu {
+  float:left;
+  width:20%;
+  text-align:center;  
+}
+
 .fa {
   padding: 25px;
   font-size: 30px;
-  width: 50px;
+  width: 60px;
+  height: auto;
   text-align: center;
   text-decoration: none;
-  margin: 5px 5px;
+  margin: 10px 10px;
 }
 
 .fa:hover {
@@ -116,13 +119,13 @@ a {
 }
 
 .fa-envelope {
-  background: #125688;
+  background: #dd4b39;  
   color: white;
 }
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .menu, .main, .rmenu, .bottom {
     width:100%;
   }
 }
